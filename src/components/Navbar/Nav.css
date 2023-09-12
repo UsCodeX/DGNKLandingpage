@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+.mainnav {
+  height: 105px;
+  width: 100%;
+  background-color: #fdffe7;
+}
+
+.nav {
+  height: 40px;
+  width: inherit;
+  background-color: #153f32;
+  display: flex;
+  justify-content: space-between;
+  /* padding-top: 5px; */
+  font-size: 13px;
+}
+
+.logo-1 {
+  color: white;
+  font-size: 20px;
+}
+
+.navul {
+  display: flex;
+  list-style-type: none;
+  gap: 30px;
+}
+.navul li {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.navul li a {
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.subnav {
+  height: 65px;
+  width: inherit;
+  background-color: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subnav ul {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  list-style-type: none;
+  gap: 10px;
+  cursor: pointer;
+}
+
+.home-icon {
+  padding-right: 10px;
+}
+
+.search-icon {
+  padding-right: 15px;
+}

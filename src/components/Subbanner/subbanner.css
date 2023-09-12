@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css2?family=Gilda+Display&family=Italianno&family=Lato:wght@300&family=Poppins:wght@100&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+/* ---------------------------------------------------SECTION-1CSS--------------------------------------- */
+
+.section1 {
+  height: 450px;
+  width: full;
+  background-color: white;
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  left: 300px;
+  font-family: "Italianno", cursive;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.image-section {
+  position: absolute;
+  top: 120px;
+  left: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.image-section1 {
+  display: flex;
+  gap: 60px;
+}
+
+.image-section2 {
+  display: flex;
+  gap: 60px;
+}
+
+/* -------------------------------------------------SECTION-2CSS------------------------------------ */
+
+.section2 {
+  height: 400px;
+  width: full;
+  background-color: #ffd9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+}
+
+/* .card-2 img {
+  height: 350px;
+  width: 250px;
+}
+
+.card-3 img {
+  height: 350px;
+  width: 250px;
+}
+
+.card-4 img {
+  height: 350px;
+  width: 250px;
+} */
+
+/* .card-1 {
+  height: 250px;
+  width: 250px;
+}
+
+.card-2 {
+  height: 250px;
+  width: 250px;
+}
+
+.card-3 {
+  height: 250px;
+  width: 250px;
+}
+
+.card-4 {
+  height: 250px;
+  width: 250px;
+} */
+
+.maintext {
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 200;
+}
+
+.subtext {
+  font-size: 20px;
+  font-weight: 200;
+  color: #414141;
+  line-height: 18px;
+  padding-bottom: 30px;
+}
+
+.btn {
+  padding-top: 45px;
+}
+
+.btn button {
+  height: 60px;
+  width: 200px;
+  background-color: rgb(7, 90, 7);
+  border-radius: 10px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+/* -------------------------------------------------SECTION-3CSS-------------------------------------- */
+
+.section3 {
+  height: 400px;
+  width: full;
+  background-color: white;
+}
+
+.peela {
+  height: 350px;
+  width: full;
+  background-color: rgb(253, 224, 203);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.dabba-1 {
+  background-color: rgb(253, 224, 203);
+  height: 300px;
+  width: 500px;
+  position: relative;
+}
+
+.dabba-1 img {
+  height: 450px;
+  width: 600px;
+  position: absolute;
+  left: 25px;
+  top: -60px;
+}
+
+.dabba-2 {
+  background-color: rgb(253, 224, 203);
+  height: 300px;
+  width: 800px;
+  position: relative;
+}
+
+.kard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  position: absolute;
+  top: 120px;
+  /* left: 10px; */
+}
+
+.kard-1 {
+  background-color: #fbf4db;
+  height: 140px;
+  width: 200px;
+  border-radius: 10px;
+  color: #581e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.25;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 21.82px;
+}
+
+.kard-2 {
+  background-color: #fbf4db;
+  height: 140px;
+  width: 200px;
+  border-radius: 10px;
+  color: #581e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.25;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 21.82px;
+}
+
+.kard-3 {
+  background-color: #fbf4db;
+  height: 140px;
+  width: 200px;
+  border-radius: 10px;
+  color: #581e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.25;
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 21.82px;
+}
+
+.aalekh {
+  position: absolute;
+  top: 40px;
+  /* left: 80px; */
+  font-family: "Italianno", cursive;
+  font-size: 60px;
+}
